@@ -1,6 +1,23 @@
 # Operating System
 
+## 进程管理
+
+### 相关命令
+
+* 查看端口对应进程
+```
+lsof -i :6379
+```
+
 ## 文件管理
+
+### 外存分配方式
+* FAT(File Allocation Table)
+    - 单文件最大 4GB
+* NTFS(New Technology File System)
+    - 受最大分割容量限制
+* exFAT(Extended File Allocation Table File System)
+    - 单文件最大 16EB(1EB=1024P=1024*1024T)
 
 ### 权限
 
